@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  background-color: #282c34;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+header > img {
+  height: 40vmin;
+  pointer-events: none;
+  padding: 0;
+}
+
+nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
