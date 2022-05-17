@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Header />
       <PicturePart />
-      <ContactCard />
+      <ContactCard name="Bolmer" type="minion" text="affter you play a battlecry repeat the last battlecry that play" />
     </div>
   );
 }
