@@ -1,11 +1,11 @@
-export default function ContactCard(prob) {
+export default function ContactCard({ name, text, type, img }) {
     return (
         <div className="contactCard">
-            <img src="https://www.w3schools.com/howto/img_avatar.png" alt="avatar" />
+            <img src={img} alt="avatar" />
             <div className="contactInfo">
-                <h2>{prob.name}</h2>
-                <p> {prob.text}</p>
-                <p> {prob.type}</p>
+                <h2>{name}</h2>
+                <p> {text}</p>
+                <p> {type}</p>
             </div>
         </div>
     );
