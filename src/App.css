@@ -30,6 +30,11 @@
   margin: 0 10px;
 }
 
+.myHeader > img {
+  width: 200px;
+  height: 200px;
+}
+
 .contact-card {
   display: flex;
 }

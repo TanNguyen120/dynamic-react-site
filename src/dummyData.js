@@ -6,6 +6,8 @@ export default [
         name: "Salamander",
         faction: "galalactic empire",
         type: "battle ship",
+        purpose: "flag ship",
+        crew: "987",
 
     },
     {
@@ -13,6 +15,15 @@ export default [
         name: "Bolmer",
         faction: "galalactic empire",
         type: "supporter",
+        purpose: " medic ship",
+        crew: "933",
+    },
+    {
+        img: "./audhumla.jpg",
+        name: "Audhumla",
+        faction: "galalactic empire",
+        type: "battle ship",
+        purpose: "supreme flag ship",
     }
 
 ]

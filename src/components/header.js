@@ -3,9 +3,10 @@
 export default function Header() {
     return (
         <header className="myHeader">
-            <h1>
+            <img src="/logo192.png" alt="logo" width="20$" />
 
-                <img src="/logo192.png" alt="logo" width="20$" />
+            <h1>
+                SPACE PROFILE
             </h1>
             <nav>
                 <ul>
